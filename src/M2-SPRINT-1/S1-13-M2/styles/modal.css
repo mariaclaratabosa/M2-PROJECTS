@@ -1,0 +1,93 @@
+@keyframes animateModal {
+  0% {
+    transform: translateY(-50%);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+dialog{
+  width: 400px;
+  height: 520px;
+  border: none;
+  border-radius: 3px;
+  background-color: #fff;
+  animation: animateModal 1s;
+}
+
+.modalStyle{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background-color: var(--background-primary);
+  border-radius: 3px;
+}
+
+.modalHeader{
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.modalTitle{
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--purple);
+}
+
+.closeModal{
+  background: none;
+  border: none;
+  font-size: 20px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.closeModal:hover{
+  cursor: pointer;
+}
+
+.modalForm{
+  display: flex;
+  flex-direction: column;
+}
+
+.modalForm label{
+  font-size: 16px;
+  padding: 20px;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.modalForm input{
+  border: none;
+  border-radius: 3px;
+  height: 40px;
+  width: 350px;
+  margin-left: 10px;;
+}
+
+.modalSubmit{
+  border: none;
+  border-radius: 3px;
+  width: 350px;
+  height: 40px;
+  margin-left: 10px;
+  margin-top: 30px;
+  background-color: #fd39a2;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.modalSubmit:hover{
+  cursor: pointer;
+}
+
+dialog::backdrop{
+  background-color: rgba(0,0,0, 0.8);
+}

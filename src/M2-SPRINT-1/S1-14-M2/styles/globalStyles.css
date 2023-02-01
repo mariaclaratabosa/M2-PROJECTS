@@ -1,0 +1,19 @@
+body{
+  font-family: 'Inter', sans-serif;;
+}
+
+:root {
+  /* Blue scale */
+  --brand-1: #4C6EF5;
+  --brand-2: #364FC7;
+
+  /* Grey Scale */
+  --grey-1: #191C1F;
+  --grey-2: #212529;
+  --grey-3: #343A40;
+  --grey-4: #ADB5BD;
+  --grey-5: #CED4DA;
+  --grey-6:#EDF2FF;
+  --button-color: #868E96;
+  --ligth: #F8F9FA;
+}

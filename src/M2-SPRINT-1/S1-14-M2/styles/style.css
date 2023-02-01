@@ -1,0 +1,256 @@
+.container-1{
+  background-color: var(--grey-2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 250px 236px;
+  height: 600px;
+}
+
+.container-1-title{
+  font-weight: 600;
+  font-size: 52px;
+  line-height: 140%;
+  color: var(--grey-6);
+}
+
+.container-1-title-style{
+  color: var(--brand-1);
+}
+
+.container-1-description{
+  text-align: center;
+  font-weight: 400px;
+  width: 790px;
+  font-size: 20px;
+  line-height: 150%;
+  color: var(--grey-4);
+  padding: 50px;
+}
+
+.container-1-btn{
+  background-color: var(--brand-1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 32px;
+  width: 160px;
+  height: 60px;
+  color: var(--ligth);
+  font-weight: 600;
+  font-size: 18px;
+  border: none;
+}
+
+.container-1-btn:hover{
+  cursor: pointer;
+}
+
+.container-2{
+  background-color: var(--grey-1);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 82px 236px;
+  height: 150px;
+}
+
+.container-2-title{
+  font-weight: 600;
+  font-size: 32px;
+  color: var(--grey-6);
+}
+
+.container-2-description-style{
+  width: 611px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: var(--grey-5);
+}
+
+.questions{
+  background-color: var(--grey-2);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 900px;
+  padding: 100px 236px;
+}
+
+.container-3{
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  gap: 33px;
+  width: 473px;
+  height: 271px;
+}
+
+.container-3-title{
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 160%;
+  color: var(--ligth);
+}
+
+.container-3-description{
+  width: 473px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: var(--grey-4);
+}
+
+.container-3-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 15px 15px;
+  width: 291px;
+  height: 50px;
+  background-color: var(--brand-1);
+  color: var(--ligth);
+  font-size: 18px;
+  line-height: 150%;
+  border: none;
+}
+
+.container-3-btn:hover{
+  cursor: pointer;
+}
+
+.container-4{
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  gap: 100px;
+  width: 614px;
+}
+
+.container-4-space{
+  width: 614px;
+  height: 100px;
+  padding-bottom: 50px;
+}
+
+.container-4-title{
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 28px;
+  color: var(--ligth);
+  line-height: 160%;
+}
+
+.container-4-description{
+  height: 120px;
+  display: flex;
+  font-weight: 400;
+  color: var(--grey-6);
+  line-height: 150%;
+  font-size: 20px;
+}
+
+.testimony{
+  background-color: var(--grey-2);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 100px 200px;
+  gap: 24px;
+  height: 700px;
+}
+
+.testimony-people{
+  width: 746px;
+  height: 135px;
+}
+
+.testimony-people-style{
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 50px;
+}
+
+.testimony-people-information{
+  display: flex;
+  flex-direction: column;
+  width: 197px;
+  height: 77px;
+}
+
+.testimony-people-information-name{
+  height: 42px;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 150%;
+  color: var(--ligth);
+}
+
+.testimony-people-information-class{
+  width: 181px;
+  height: 27px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: var(--grey-4);
+}
+
+.testimony-people-information-description{
+  width: 492px;
+  height: 135px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: var(--ligth);
+  padding-left: 60px;
+}
+
+.testimony-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 40px;
+  gap: 35px;
+  width: 430px;
+  height: 400px;
+  background-color: var(--brand-1);
+}
+
+.testimony-box-title{
+  width: 342px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 140%;
+  color: var(--ligth);
+}
+
+.testimony-box-description{
+  width: 342px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: var(--grey-6);
+}
+
+.footer{
+  background-color: var(--grey-1);
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-title{
+  color: var(--grey-6);
+  font-size: 25px;
+}

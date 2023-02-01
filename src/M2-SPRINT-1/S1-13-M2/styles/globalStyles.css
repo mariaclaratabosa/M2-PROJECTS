@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("./reset.css");
+@import url("./forms.css");
+
+main,
+div,
+section,
+img,
+p,
+strong,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+label,
+select,
+a,
+button {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+input{
+  border-radius: 4px;
+  padding: 16px;
+  width: 400px;
+  max-width: 450px;
+  border: none;
+}
+
+input:focus{
+  color: var(--purple);
+  outline: none;
+}
+
+:root {
+  --background-primary: #e393ac; 
+  --background-secondary: #fcce90;
+  --button-color: #fd39a2;
+  --purple: #a43bcb;
+}

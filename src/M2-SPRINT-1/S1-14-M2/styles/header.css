@@ -1,0 +1,126 @@
+.header{
+  background-color: var(--grey-1);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  position: fixed;
+  width: 100vw;
+  gap: 700px;
+  top: 0;
+  border-bottom: 2px solid var(--brand-1);
+  z-index: 1;
+}
+
+.header-title{
+  color: var(--ligth);
+  font-size: 25px;
+}
+
+.header-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 20px;
+  height: 50px;
+  background: none;
+  border: 1px solid var(--grey-6);
+  font-family: 'Inter', sans-serif;
+  color: var(--grey-6);
+  font-size: 18px;
+}
+
+.header-btn:hover{
+  cursor: pointer;
+}
+
+dialog{
+  width: 590px;
+  height: 440px;
+  border: 2px solid var(--brand-1);
+  background-color: var(--grey-2);
+}
+
+.modal__container{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;;
+  padding: 30px 28px;
+  gap: 31px;
+}
+
+.modal-header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.modal-title{
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 150%;
+  color: var(--ligth);
+}
+
+#closeModal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 12px;
+  height: 32px;
+  background-color: var(--grey-3);
+  border: none;
+  border-radius: 4px;
+  color: var(--button-color);
+}
+
+#closeModal:hover{
+  cursor: pointer;
+}
+
+dialog p{
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: var(--grey-5);
+}
+
+dialog input{
+  padding: 14px 20px;
+  gap: 10px;
+  width: 490px;
+  height: 30px;
+  background-color: var(--grey-1);
+  border: none;
+}
+
+dialog input:focus{
+  color: var(--grey-4);
+  font-size: 18px;
+  outline: none;
+}
+
+dialog input::placeholder{
+  font-family: Inter, sans-serif;
+  font-size: 20px;
+  color: var(--grey-4);
+}
+
+.submit-modal{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 32px;
+  gap: 10px;
+  width: 530px;
+  height: 60px;
+  font-size: 20px;
+  background-color: var(--brand-1);
+  color: var(--ligth);
+  border: none;
+}
+
+dialog::backdrop{
+  background-color: rgba(0,0,0,0.8);
+}
