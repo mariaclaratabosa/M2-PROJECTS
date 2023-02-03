@@ -1,6 +1,6 @@
 # FULLSTACK BOOTCAMP - PROJETOS - MÓDULO 2
 Irei postar todos os meus projetos desenvolvidos durante o bootcamp FullStack na Kenzie Academy Brasil, a fim de mostrar meu progresso até aqui. Nesse repositório terão os projetos desenvolvidos no `segundo módulo` ou `M2`<br />
-[M1](https://mariaclaratabosa.github.io/M1-PROJETOS/) | [M2](https://mariaclaratabosa.github.io/M2-PROJETOS/)
+[M1](https://github.com/mariaclaratabosa/M1-PROJETOS) | [M2](https://github.com/mariaclaratabosa/M2-PROJETOS)
 <hr />
 
 O `S` significa `SPRINT` ou seja, `S1` significa `SPRINT 1`, e todas as outras `SPRINTS` seguem a mesma lógica.<br />
