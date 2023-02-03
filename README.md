@@ -44,3 +44,6 @@ Nesse projeto, resolvi exercícios em JavaScript recriando métodos de array sem
 <br />
 <br />
 `scaffolding` `return` `loops` `function` `variables` `data type` `boolean` `conditionals` `arrays` `node` `yarn` `jest` `+`
+
+<hr />
+<h6>Os códigos desse repositório foram desenvolvidos por mim. O modelo de organização do repositório foi baseado no repositório BOOTCAMP-PROJECTS-AND-ACTIVITIES-M2 de @bitoller, com as devidas autorizações da autora</h6>
