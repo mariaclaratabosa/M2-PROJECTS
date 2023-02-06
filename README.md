@@ -53,7 +53,7 @@ Nesse projeto, desenvilvi uma página baseada em um modelo fornecido, utilizando
 <br />
 `mobile first` `scaling` `positioning` `flexbox` `media queries` `responsive` `+`
 
-## S3-06-M2 - 07/02/23 - "[APLICANDO CONCEITOS DE MEDIA QUERIES]()"
+## S3-06-M2 - 07/02/23 - "[APLICANDO CONCEITOS DE MEDIA QUERIES](https://mariaclaratabosa.github.io/M2-PROJETOS//src/M2-SPRINT-3/S3-06-M2/index.html)"
 Nesse projeto, converti um layout projetado para se enquadrar no modelo mobile first, modificando para que ele funcione em telas maiores
 <br />
 `mobile first` `scaling` `positioning` `flexbox` `media queries`
