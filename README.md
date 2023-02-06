@@ -41,8 +41,29 @@ Nesse projeto, resolvi exercícios utilizando JavaScript e o <strong>método red
 ## S2-12-M2 - 03/02/23 - "[RECRIANDO MÉTODOS DE ARRAY](https://mariaclaratabosa.github.io/M2-PROJETOS//src/M2-SPRINT-2/S2-12-M2/index.html)"
 Nesse projeto, resolvi exercícios em JavaScript recriando métodos de array sem utilizá-los, e os exercícios passaram por um teste unitário utilizando jest
 <br />
-<br />
 `scaffolding` `return` `loops` `function` `variables` `data type` `boolean` `conditionals` `arrays` `node` `yarn` `jest` `+`
+
+## S3-03-M2 - 06/02/23 - "[CRIANDO MENU RESPONSIVO]()"
+Nesse projeto, desenvolvi um menu utilizando os conceitos de responsivdade, que no mobile, expande e esconde o menu da tela do usuário a partir da ação de clique
+<br />
+
+## S3-05-M2 - 07/02/23 - "[COLUNAS RESPONSIVAS]()"
+Nesse projeto, desenvilvi uma página baseada em um modelo fornecido, utilizando o conceito de mobile first
+<br />
+
+## S3-06-M2 - 07/02/23 - "[APLICANDO CONCEITOS DE MEDIA QUERIES]()"
+Nesse projeto, converti um layout projetado para se enquadrar no modelo mobile first, modificando para que ele funcione em telas maiores
+<br />
+`mobile first` `dimensionamento` `posicionamento` `flexbox` `media queries`
+
+## S3-07-M2 - 08/02/23 - "[MEDIA QUERIES E ESTILIZANDO TEXTOS]()"
+<br />
+
+## S3-09-M2 - 08/02/23 - "[INSERINDO UNIDADES RELATIVAS EM PROJETO]()"
+
+## S3-11-M2 - 09/02/23 - "[ATIVIDADE TRABALHANDO COM MÚLTIPLOS ARQUIVOS JS]()"
+
+## S3-12-M2 - 10/02/23 - "[REDE SOCIAL]()"
 
 <br />
 <h6>Os códigos desse repositório foram desenvolvidos por mim. O modelo de organização do repositório foi baseado no repositório BOOTCAMP-PROJECTS-AND-ACTIVITIES-M2 de @bitoller, com as devidas autorizações da autora</h6>
