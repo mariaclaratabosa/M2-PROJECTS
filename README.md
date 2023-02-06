@@ -48,7 +48,7 @@ Nesse projeto, desenvolvi um menu utilizando os conceitos de responsivdade, que 
 <br />
 `scaling` `positioning` `flexbox` `media queries` `menu` `responsive` `+`
 
-## S3-05-M2 - 07/02/23 - "[COLUNAS RESPONSIVAS](https://mariaclaratabosa.github.io/M2-PROJETOS//src/M2-SPRINT-3/S3-05-M2/S3-05-M2.html)"
+## S3-05-M2 - 07/02/23 - "[COLUNAS RESPONSIVAS](https://mariaclaratabosa.github.io/M2-PROJETOS//src/M2-SPRINT-3/S3-05-M2/index.html)"
 Nesse projeto, desenvilvi uma página baseada em um modelo fornecido, utilizando o conceito de mobile first, onde numa tela responsiva, uma tag deveria ocupar uma largura maior que a outra
 <br />
 `mobile first` `scaling` `positioning` `flexbox` `media queries` `responsive` `+`
