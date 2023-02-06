@@ -8,12 +8,12 @@ Os números são referentes aos números de cada atividade.<br />
 O `M` significa `Módulo` ou seja, `M2` significa `Módulo 2`.
 <hr />
 
-## S1-13-M2 - 01/26/23 - "[PÁGINA DE LOGIN](https://mariaclaratabosa.github.io/M2-PROJETOS//src/M2-SPRINT-1/S1-13-M2/index.html)"
+## S1-13-M2 - 26/01/23 - "[PÁGINA DE LOGIN](https://mariaclaratabosa.github.io/M2-PROJETOS//src/M2-SPRINT-1/S1-13-M2/index.html)"
 Nesse projeto, eu codifiquei um modal de cadastro em uma página de login, bem como criei o código HTML e a estilização CSS seguindo o conceito de variáveis e scaffolding<br />
 <br />
 `scaffolding` `dialog` `css variables` `flexbox` `function` `variables` `data type` `methods` `+`
 
-## S1-14-M2 - 01/27/23 - "[SITE INSTITUCIONAL GENÉRICO](https://mariaclaratabosa.github.io/M2-PROJETOS//src/M2-SPRINT-1/S1-14-M2/index.html)"
+## S1-14-M2 - 27/01/23 - "[SITE INSTITUCIONAL GENÉRICO](https://mariaclaratabosa.github.io/M2-PROJETOS//src/M2-SPRINT-1/S1-14-M2/index.html)"
 Nesse projeto, codifiquei um site genético da Web, seguindo fielmente o layout do Figma, utilizando HTML, CSS e JavaScript. Ambos os botões tinham que abrir o mesmo modal, e o modal possue um botão de fechamento funcional<br />
 <br />
 `scaffolding` `dialog` `css variables` `flexbox` `backdrop` `function` `variables` `data type` `methods` `+`
