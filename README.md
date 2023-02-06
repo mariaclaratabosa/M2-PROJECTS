@@ -43,18 +43,20 @@ Nesse projeto, resolvi exercícios em JavaScript recriando métodos de array sem
 <br />
 `scaffolding` `return` `loops` `function` `variables` `data type` `boolean` `conditionals` `arrays` `node` `yarn` `jest` `+`
 
-## S3-03-M2 - 06/02/23 - "[CRIANDO MENU RESPONSIVO]()"
+## S3-03-M2 - 06/02/23 - "[CRIANDO MENU RESPONSIVO](https://mariaclaratabosa.github.io/M2-PROJETOS//src/M2-SPRINT-3/S3-03-M2/index.html)"
 Nesse projeto, desenvolvi um menu utilizando os conceitos de responsivdade, que no mobile, expande e esconde o menu da tela do usuário a partir da ação de clique
 <br />
+`scaling` `positioning` `flexbox` `media queries` `menu` `responsive` `+`
 
-## S3-05-M2 - 07/02/23 - "[COLUNAS RESPONSIVAS]()"
-Nesse projeto, desenvilvi uma página baseada em um modelo fornecido, utilizando o conceito de mobile first
+## S3-05-M2 - 07/02/23 - "[COLUNAS RESPONSIVAS](https://mariaclaratabosa.github.io/M2-PROJETOS//src/M2-SPRINT-3/S3-05-M2/index.html)"
+Nesse projeto, desenvilvi uma página baseada em um modelo fornecido, utilizando o conceito de mobile first, onde numa tela responsiva, uma tag deveria ocupar uma largura maior que a outra
 <br />
+`mobile first` `scaling` `positioning` `flexbox` `media queries` `responsive` `+`
 
 ## S3-06-M2 - 07/02/23 - "[APLICANDO CONCEITOS DE MEDIA QUERIES]()"
 Nesse projeto, converti um layout projetado para se enquadrar no modelo mobile first, modificando para que ele funcione em telas maiores
 <br />
-`mobile first` `dimensionamento` `posicionamento` `flexbox` `media queries`
+`mobile first` `scaling` `positioning` `flexbox` `media queries`
 
 ## S3-07-M2 - 08/02/23 - "[MEDIA QUERIES E ESTILIZANDO TEXTOS]()"
 <br />
