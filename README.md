@@ -1,19 +1,19 @@
 # FULLSTACK BOOTCAMP - PROJETOS - MÓDULO 2
 Irei postar todos os meus projetos desenvolvidos durante o bootcamp FullStack na Kenzie Academy Brasil, a fim de mostrar meu progresso até aqui. Nesse repositório terão os projetos desenvolvidos no `segundo módulo` ou `M2`<br />
-[M1](https://mariaclaratabosa.github.io/M1-PROJETOS/) | [M2](https://mariaclaratabosa.github.io/M2-PROJETOS/)
+[M1](https://github.com/mariaclaratabosa/M1-PROJETOS) | [M2](https://github.com/mariaclaratabosa/M2-PROJETOS)
 <hr />
 
-O `S` significa `SPRINT` ou seja, `S1` significa `SPRINT 1`, e todas as outras SPRINTS seguem a mesma lógica.<br />
+O `S` significa `SPRINT` ou seja, `S1` significa `SPRINT 1`, e todas as outras `SPRINTS` seguem a mesma lógica.<br />
 Os números são referentes aos números de cada atividade.<br />
 O `M` significa `Módulo` ou seja, `M2` significa `Módulo 2`.
 <hr />
 
-## S1-13-M2 - 26/01/23 - "[PÁGINA DE LOGIN](https://mariaclaratabosa.github.io/M2-PROJETOS//src/M2-SPRINT-1/S1-13-M2/index.html)"
+## S1-13-M2 - 01/26/23 - "[PÁGINA DE LOGIN](https://mariaclaratabosa.github.io/M2-PROJETOS//src/M2-SPRINT-1/S1-13-M2/index.html)"
 Nesse projeto, eu codifiquei um modal de cadastro em uma página de login, bem como criei o código HTML e a estilização CSS seguindo o conceito de variáveis e scaffolding<br />
 <br />
 `scaffolding` `dialog` `css variables` `flexbox` `function` `variables` `data type` `methods` `+`
 
-## S1-14-M2 - 27/01/23 - "[SITE INSTITUCIONAL GENÉRICO](https://mariaclaratabosa.github.io/M2-PROJETOS//src/M2-SPRINT-1/S1-14-M2/index.html)"
+## S1-14-M2 - 01/27/23 - "[SITE INSTITUCIONAL GENÉRICO](https://mariaclaratabosa.github.io/M2-PROJETOS//src/M2-SPRINT-1/S1-14-M2/index.html)"
 Nesse projeto, codifiquei um site genético da Web, seguindo fielmente o layout do Figma, utilizando HTML, CSS e JavaScript. Ambos os botões tinham que abrir o mesmo modal, e o modal possue um botão de fechamento funcional<br />
 <br />
 `scaffolding` `dialog` `css variables` `flexbox` `backdrop` `function` `variables` `data type` `methods` `+`
@@ -33,7 +33,7 @@ Nesse projeto, codifiquei os botões de remover itens do carrinho utilizando Jav
 <br />
 `scaffolding` `return` `function` `variables` `data type` `methods` `+`
 
-## S2-08-M2 - 01/02/23 - "[REDUZINDO DADOS](https://mariaclaratabosa.github.io/M2-PROJETOS//src/M2-SPRINT-2/S2-08-M2/index.html)"
+## S2-08-M2 - 02/01/23 - "[REDUZINDO DADOS](https://mariaclaratabosa.github.io/M2-PROJETOS//src/M2-SPRINT-2/S2-08-M2/index.html)"
 Para minha próxima atividade eu tinha que resolver exercícios usando JavaScript e o método de redução.
 Nesse projeto, resolvi exercícios utilizando JavaScript e o <strong>método reduce</strong> <br />
 <br />
@@ -44,3 +44,6 @@ Nesse projeto, resolvi exercícios em JavaScript recriando métodos de array sem
 <br />
 <br />
 `scaffolding` `return` `loops` `function` `variables` `data type` `boolean` `conditionals` `arrays` `node` `yarn` `jest` `+`
+
+<br />
+<h6>Os códigos desse repositório foram desenvolvidos por mim. O modelo de organização do repositório foi baseado no repositório BOOTCAMP-PROJECTS-AND-ACTIVITIES-M2 de @bitoller, com as devidas autorizações da autora</h6>
