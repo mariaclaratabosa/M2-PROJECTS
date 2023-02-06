@@ -33,8 +33,7 @@ Nesse projeto, codifiquei os botões de remover itens do carrinho utilizando Jav
 <br />
 `scaffolding` `return` `function` `variables` `data type` `methods` `+`
 
-## S2-08-M2 - 02/01/23 - "[REDUZINDO DADOS](https://mariaclaratabosa.github.io/M2-PROJETOS//src/M2-SPRINT-2/S2-08-M2/index.html)"
-Para minha próxima atividade eu tinha que resolver exercícios usando JavaScript e o método de redução.
+## S2-08-M2 - 01/02/23 - "[REDUZINDO DADOS](https://mariaclaratabosa.github.io/M2-PROJETOS//src/M2-SPRINT-2/S2-08-M2/index.html)"
 Nesse projeto, resolvi exercícios utilizando JavaScript e o <strong>método reduce</strong> <br />
 <br />
 `scaffolding` `console log` `return` `function` `variables` `operators` `arithmetics` `data type` `string` `number` `methods` `arrays` `objects` `+`
