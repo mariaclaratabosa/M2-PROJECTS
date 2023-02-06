@@ -56,10 +56,12 @@ Nesse projeto, desenvilvi uma página baseada em um modelo fornecido, utilizando
 ## S3-06-M2 - 07/02/23 - "[APLICANDO CONCEITOS DE MEDIA QUERIES](https://mariaclaratabosa.github.io/M2-PROJETOS//src/M2-SPRINT-3/S3-06-M2/index.html)"
 Nesse projeto, converti um layout projetado para se enquadrar no modelo mobile first, modificando para que ele funcione em telas maiores
 <br />
-`mobile first` `scaling` `positioning` `flexbox` `media queries`
+`mobile first` `scaling` `positioning` `flexbox` `media queries` `+`
 
-## S3-07-M2 - 08/02/23 - "[MEDIA QUERIES E ESTILIZANDO TEXTOS]()"
+## S3-07-M2 - 08/02/23 - "[MEDIA QUERIES E ESTILIZANDO TEXTOS](https://mariaclaratabosa.github.io/M2-PROJETOS//src/M2-SPRINT-3/S3-07-M2/index.html)"
+Nesse projeto, converti um layout projetado para que se adaptasse aos diferentes tamanhos de dela, aplicando as devidas modificações estabelecidas
 <br />
+`mobile first` `scaling` `positioning` `media queries` `+`
 
 ## S3-09-M2 - 08/02/23 - "[INSERINDO UNIDADES RELATIVAS EM PROJETO]()"
 
