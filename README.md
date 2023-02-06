@@ -63,8 +63,6 @@ Nesse projeto, converti um layout projetado para que se adaptasse aos diferentes
 <br />
 `mobile first` `scaling` `positioning` `media queries` `+`
 
-## S3-09-M2 - 08/02/23 - "[INSERINDO UNIDADES RELATIVAS EM PROJETO]()"
-
 ## S3-11-M2 - 09/02/23 - "[ATIVIDADE TRABALHANDO COM MÚLTIPLOS ARQUIVOS JS]()"
 
 ## S3-12-M2 - 10/02/23 - "[REDE SOCIAL]()"
