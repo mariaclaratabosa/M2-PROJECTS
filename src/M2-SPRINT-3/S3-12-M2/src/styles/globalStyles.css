@@ -1,0 +1,15 @@
+:root {
+    --brand-1: #4263EB;
+    --brand-2: #364FC7;
+
+    --grey0: #0A0C0D;
+    --grey1: #212529;
+    --grey2: #495057;
+    --grey3: #868E96;
+    --grey4: #DEE2E6;
+    --grey-5: #F8F9FA;
+    --grey-opacity-1: rgba(33, 37, 41, 0.5);
+    --white-fixed: #FFFFFF;
+
+    --like: #D7443E;
+}

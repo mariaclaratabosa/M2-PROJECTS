@@ -1,0 +1,23 @@
+header {
+    background-color: var(--grey1);
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 2rem 3rem;
+    position: fixed;
+    width: 100%;
+}
+
+.header__main{
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header__main > button{
+    background-color: transparent;
+    color: var(--white-fixed);
+    font-size: 0.8rem;
+    cursor: pointer;
+}

@@ -1,0 +1,124 @@
+.post__submit{
+    padding-left: 2rem;
+    width: max-content;
+}
+
+.form__user{
+    display: flex;
+    gap: 1rem;
+}
+
+.form__user--img{
+    width: 3.25rem;
+    height: 3.25rem;
+}
+
+.form__user--content{
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.form__user--name{
+    font-weight: 600;
+    line-height: 1.5rem;
+    color: var(--grey1);
+    padding-bottom: 0.5rem;
+    font-size: 1.25rem;
+}
+
+.form__user--stack{
+    color: var(--grey2);
+    font-size: 0.875rem;
+}
+
+.form__input{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    color: var(--grey3);
+    width: fit-content;
+}
+
+.form__input--title{
+    border: 2px solid var(--grey4);
+    width: 17rem;
+    height: 3.375rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.form__input--title:focus{
+    border: 2px solid var(--brand-1);
+}
+
+.form__input--title:valid{
+    color: var(--grey2);
+}
+
+.form__input--description{
+    border: 2px solid var(--grey4);
+    width: 17rem;
+    font-size: 1rem;
+    height: 8.125rem;
+    border-radius: 4px;
+    padding: 1rem;
+    resize: none;
+
+}
+
+.form__input--description:focus{
+    outline: none;
+    border: 2px solid var(--brand-1);
+}
+
+.form__input--description:valid{
+    color: var(--grey1);
+}
+
+.form__input > button{
+    align-self: flex-end;
+    width: 4rem;
+    height: 2.3rem;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: var(--brand-1);
+    color: var(--white-fixed);
+}
+
+.form__input > button:hover{
+    background-color: var(--brand-2);
+    color: var(--white-fixed);
+}
+
+.form__input > button:focus{
+    background-color: var(--grey4);
+    color: var(--grey3);
+}
+
+.users__suggestions {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+@media(min-width: 425px){
+    .form__input--title{
+        width: 22rem;
+    }
+
+    .form__input--description{
+        width: 22rem;
+    }
+}
+
+@media(min-width: 900px){
+    .form__input--title{
+        width: 44.563rem;
+    }
+
+    .form__input--description{
+        width: 44.563rem;
+    }
+}

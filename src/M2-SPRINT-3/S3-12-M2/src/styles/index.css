@@ -1,0 +1,24 @@
+main {
+    padding-top: 150px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.main__header--style{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+@media(min-width: 768px){
+    .main__header--style{
+        flex-direction: row;
+        gap: 1rem;
+    }
+}
+
+@media(min-width:900px){
+    .main__header--style{
+        gap: 6rem;
+    }
+}
