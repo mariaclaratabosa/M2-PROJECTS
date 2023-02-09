@@ -63,7 +63,7 @@ Nesse projeto, converti um layout projetado para que se adaptasse aos diferentes
 <br />
 `mobile first` `scaling` `positioning` `media queries` `+`
 
-## S3-11-M2 - 09/02/23 - "[ATIVIDADE TRABALHANDO COM MÚLTIPLOS ARQUIVOS JS]()"
+## S3-11-M2 - 09/02/23 - "[ATIVIDADE TRABALHANDO COM MÚLTIPLOS ARQUIVOS JS](https://mariaclaratabosa.github.io/M2-PROJETOS//src/M2-SPRINT-3/S3-11-M2/index.html)"
 Nesse projeto, desenvovolvi uma página que manipula múltiplos arquivos JavaScript através do import e export, bem como renderiza os componentes dinamicamente na página, e o CSS foi desenvolvido de forma responsiva, utilizando os conceitos de mobile first
 <br />
 `mobile first` `scaling` `positioning` `media queries` `DOM` `import` `export` `+`
