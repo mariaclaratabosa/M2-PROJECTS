@@ -1,6 +1,5 @@
-export { users, books }
 
-const users = [
+export const users = [
     {
       nome: 'Bruno',
       cargo: 'Instrutor',
@@ -28,7 +27,7 @@ const users = [
     }
   ]
   
-  const books = [
+  export const books = [
     {
       nome: 'Percy Jackson e o ladrão de raios',
       autor: 'Rick Riodan',
@@ -36,7 +35,7 @@ const users = [
     },
     {
       nome: 'Jogos vorazes',
-      autor: 'Suzanne collins',
+      autor: 'Suzanne Collins',
       imagem: 'https://imgs.search.brave.com/5u8nF1QrnQlj7K6yXEtJDeJueVeLrR4pnWE9Ua9fKRc/rs:fit:855:1200:1/g:ce/aHR0cHM6Ly9pbWFn/ZW5zLmVsaXZyb3Nn/cmF0aXMuY29tL2Nh/cGFzL2pvZ29zLXZv/cmF6ZXMtc3V6YW5u/ZS1jb2xsaW5zLmpw/Zw'
     },
     {
@@ -47,6 +46,7 @@ const users = [
     {
       nome: 'Eu sou o número quatro',
       autor: 'Pittacus Lore',
-      imagem: 'https://imgs.search.brave.com/1vwBOUOLt-Pwo_i_I-6-GFMkZF-E8DRi1i7C5sIW2Qg/rs:fit:1000:1000:1/g:ce/aHR0cHM6Ly9saXZy/b2ZhY2lsLnZ0ZXhp/bWcuY29tLmJyL2Fy/cXVpdm9zL2lkcy8x/OTg3OTEtMTAwMC0x/MDAwLzk3ODg1ODA1/NzAxMzdfMi5qcGc_/dj02MzY4MzM0MTc5/NzkzNzAwMDA'
+      imagem: 'https://m.media-amazon.com/images/I/410j9F8XsUL.jpg'
     }
   ]
+
