@@ -73,6 +73,6 @@ Nesse projeto, desenvolvi o layout similar a uma rede social, seguindo fielmente
 <br />
 `mobile first` `scaling` `positioning` `media queries` `DOM` `import` `export` `modal` `dialog` `+`
 
-## S4-16-M2 - 17/02/23 - "[GITSEARCH](https://mariaclaratabosa.github.io/M2-PROJETOS//src/M2-SPRINT-3/S4-16-M2/index.html)"
+## S4-16-M2 - 17/02/23 - "[GITSEARCH](https://mariaclaratabosa.github.io/M2-PROJETOS//src/M2-SPRINT-4/S4-16-M2/index.html)"
 Nesse projeto, desenvolvi um site para pesquisar usuários no GitHub através de requisição na API do GitHub, onde a pessoa digita o nome do usuário, caso seja encontrado, ele é redirecionado a outra página contendo o nome e foto do usuário, bem como seus repositórios, onde cada card de repositório contém o nome, a descrição e um botão que leva diretamente ao repositório no GitHub, a página possui, também, um botão de "Trocar usuário", redirecionando à página inicial para que possa ser realizada uma nova pesquisa. Caso o usuário pesquisado não seja encontrado, ele é redirecionado à uma página de erro, que contém um botão de "Nova busca" que redireciona à página inicial também.
 <h6>Os códigos desse repositório foram desenvolvidos por mim. O modelo de organização do repositório foi baseado no repositório BOOTCAMP-PROJECTS-AND-ACTIVITIES-M2 de @bitoller, com as devidas autorizações da autora</h6>
