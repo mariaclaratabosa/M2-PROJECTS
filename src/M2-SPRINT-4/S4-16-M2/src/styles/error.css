@@ -1,0 +1,56 @@
+body {
+    background-color: var(--color-grey-2);
+    font-family: var(--font-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.error--principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+}
+
+.error--message {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    width: 25%;
+}
+
+.error--title {
+    font-weight: 700;
+    font-size: 2.375rem;
+    color: var(--color-grey-7);
+    line-height: 3.125rem;
+    padding-bottom: 1rem;
+}
+
+.error--content {
+    font-weight: 300;
+    font-size: 0.8rem;
+    color: var(--color-grey-7);
+}
+
+.error--button {
+    background-color: var(--color-brand-2);
+    border: 2px solid var(--color-brand-2);
+    border-radius: 0.5rem;
+    width: 17rem;
+    height: 3rem;
+    color: var(--color-grey-7);
+    font-weight: 600;
+    font-size: 0.8rem;
+    font-family: var(--font-primary);
+    cursor: pointer;
+}
+
+.error--image__content {
+    width: 22.1875rem;
+    height: 18.125rem;
+}

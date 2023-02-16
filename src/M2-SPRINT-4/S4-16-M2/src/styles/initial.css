@@ -1,0 +1,103 @@
+body{
+    font-family: var(--font-primary);
+}
+
+.principal--initial{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+}
+
+.principal--message{
+    background-color: var(--color-brand-2);
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.principal--message__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.message--title{
+    font-weight: 500;
+    font-size: 2rem;
+    color: var(--color-grey-7);
+}
+
+.message--content{
+    font-weight: 300;
+    font-size: 1rem;
+    color: var(--color-grey-7);
+    width: 70%;
+    line-height: 1.875rem;
+}
+
+.principal--search{
+    background-color: var(--color-grey-2);
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.principal--search__content{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 10rem;
+    justify-items: center;
+}
+
+.search--title{
+    font-weight: 400;
+    font-size: 1.25rem;
+    color: var(--color-grey-7);
+}
+
+.search--form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.form--label{
+    font-size: 0.875rem;
+    color: var(--color-grey-7);
+}
+
+.input-username{
+    background-color: var(--color-grey-1);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 0.25rem;
+    width: 19rem;
+    height: 2.375rem;
+    padding-left: 1rem;
+    color: var(--color-grey-7);
+    font-size: 0.875rem;
+}
+
+.input-username::placeholder{
+    font-size: 0.875rem;
+    color: var(--color-grey-6)
+}
+
+.search-user{
+    background-color: var(--color-brand-2);
+    width: 19.9rem;
+    height: 2.375rem;
+    border-radius: 0.25rem;
+    border: 1px solid var(--color-brand-2);
+    cursor: pointer;
+    color: var(--color-grey-7);
+    font-size: 0.875rem;
+}

@@ -1,0 +1,109 @@
+body{
+    font-family: var(--font-primary);
+    background-color: var(--color-grey-2);
+}
+
+.header--container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    max-width: 800px;
+    align-items: center;
+    margin: 2rem auto;
+    justify-content: space-between;
+}
+
+.user--header{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.user--image{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 150px;
+    border: 2px solid var(--color-brand-2);
+}
+
+.user--name{
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: var(--color-grey-7);
+}
+
+.change--user{
+    width: 10.5625rem;
+    height: 2.375rem;
+    background-color: rgba(255, 255, 255, 0.08);
+    border-radius: 0.5rem;
+    color: var(--color-grey-7);
+    font-size: 0.875rem;
+    cursor: pointer;
+}
+
+.user--repos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.repos--content{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+}
+
+.repos--list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.repos--item{
+    display: flex;
+    flex-direction: column;
+    width: 20.8125rem;
+    height: 15.1875rem;
+    border-radius: 8px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    padding: 1rem;
+    gap: 3rem;
+}
+
+.repos--item:hover{
+    background-color: var(--color-grey-1);
+    border-color: var(--color-grey-7);
+}
+
+.repo--name{
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: var(--color-grey-7);
+}
+
+.repo--description{
+    font-weight: 400;
+    font-size: 0.875rem;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.repo--button{
+    width: 5.8125rem;
+    height: 1.75rem;
+    border: 1px solid var(--color-grey-7);
+    background-color: transparent;
+    border-radius: 4px;
+    color: var(--color-grey-7);
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.repo--button:hover{
+    background-color: var(--color-brand-2);
+    border: 1px solid var(--color-brand-2);
+}
