@@ -1,8 +1,9 @@
-function renderUser(){
+const renderUser = () => {
     const userContent = JSON.parse(localStorage.getItem("searchUser"))
     const userImage = document.querySelector('.user--image')
     const userName = document.querySelector('.user--name')
     const userRepos = document.querySelector('.repos--list')
+    
     userImage.src = userContent.avatar_url
     userName.innerText = userContent.name
 
@@ -41,7 +42,7 @@ function renderUser(){
 }
 renderUser()
 
-function redirect(){
+const redirect = () => {
     const changeUserButton = document.querySelector('.change--user')
     changeUserButton.addEventListener('click', () => {
         window.location.replace('../../index.html')

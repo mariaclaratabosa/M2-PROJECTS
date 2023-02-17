@@ -1,4 +1,4 @@
-async function searchUser(value) {
+const searchUser = async(value) => {
     const user = await fetch(`https://api.github.com/users/${value}`, {
         method: 'GET',
         headers: {
@@ -20,12 +20,12 @@ async function searchUser(value) {
     return user
 }
 
-export async function form() {
+const capturingForm = () => {
     const form = document.querySelector('form')
-    form.addEventListener('submit', async (event) => {
+    form.addEventListener('submit', (event) => {
         event.preventDefault()
         const input = form.children[1].value
         searchUser(input)
     })
 }
-form()
+capturingForm()

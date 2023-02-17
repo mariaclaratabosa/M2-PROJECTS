@@ -1,6 +1,6 @@
-function redirect() {
-    const newSeachButton = document.querySelector('.error--button')
-    newSeachButton.addEventListener('click', () => {
+const redirect = () => {
+    const newSearchButton = document.querySelector('.error--button')
+    newSearchButton.addEventListener('click', () => {
         window.location.replace('../../index.html')
     })
 }
