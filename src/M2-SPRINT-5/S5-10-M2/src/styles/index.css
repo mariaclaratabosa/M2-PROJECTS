@@ -86,6 +86,11 @@ h1{
     height: 3.75rem;
     gap: 1rem;
     padding-left: 1rem;
+    border: 2px solid var(--grey-1);
+}
+
+.pokemon--item:hover{
+    border: 2px solid var(--blue-default);
 }
 
 .pokemon--image{
