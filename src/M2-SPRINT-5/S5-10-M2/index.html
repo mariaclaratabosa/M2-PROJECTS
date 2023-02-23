@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Maria Clara Tabosa">
+  <link rel="shortcut icon" href="./src/assets/pokeapi.png" type="image/x-icon">
+  <link rel="stylesheet" href="./src/styles/reset.css">
+  <link rel="stylesheet" href="./src/styles/globalStyles.css">
+  <link rel="stylesheet" href="./src/styles/index.css">
+  <title>Consumindo PokeAPI</title>
+</head>
+
+<body>
+  <header id="header">
+    <img src="./src/assets/pokeapi.png" alt="Logo da PokeAPI" id="logo">
+    <form class="search">
+      <input type="text" placeholder="Pesquisar por..." id="search--pokemon">
+      <button id="search--pokemon__button"><img src="./src/assets/search-icon.png" alt="Ícone de lupa"></button>
+    </form>
+  </header>
+  <main class="principal--container">
+    <h1>Lista de Pokemon</h1>
+    <p id="loading">Carregando...</p>
+    <ul id="pokemons--list">
+
+    </ul>
+  </main>
+
+  <script src="./src/scripts/requests.js"></script>
+  <script src="./src/scripts/index.js"></script>
+</body>
+
+</html>
