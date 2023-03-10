@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Maria Clara Tabosa">
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="../styles/globalStyles.css">
+    <link rel="stylesheet" href="../styles/admin-dashboard.css">
+    <script type="module" src="../scripts/admin-dashboard.js" defer></script>
+    <title>Admin Dashboard</title>
+</head>
+
+<body>
+    <dialog class="create__department">
+        <div class="create__controller">
+            <div class="create__close">
+                <button class="close__creation">X</button>
+            </div>
+            <div class="create__header">
+                <h2>Criar departamento</h2>
+            </div>
+            <form action="" class="create__department--form">
+                <input type="text" class="create__department--input" placeholder="Nome do departamento" required>
+                <input type="text" class="create__department--input" placeholder="Descrição" required>
+                <select name="" id="select__company">
+                    <option value="">Selecionar empresa</option>
+                </select>
+                <button class="create__confirm">Criar o departamento</button>
+            </form>
+        </div>
+    </dialog>
+
+    <dialog class="view__department--admin">
+        <div class="view__controller">
+            <div class="view__close">
+                <button class="close__view">X</button>
+            </div>
+            <div class="view__header">
+                <h2 class="view__department--name"></h2>
+            </div>
+            <div class="view__department--content">
+                <div class="view__department--description">
+                    <span class="departament__description--content"></span>
+                    <span class="department__company--content"></span>
+                </div>
+                <form class="select__and--hire">
+                    <select name="" id="select__user">
+                        
+                    </select>
+                    <button class="hire__user">Contratar</button>
+                </form>
+            </div>
+            <div class="view__users--list">
+                <ul class="users__list--hire">
+
+                </ul>
+            </div>
+        </div>
+    </dialog>
+
+    <dialog class="edit__department--admin">
+        <div class="edit__department--controller">
+            <div class="close__edit--header">
+                <button class="close__edit">X</button>
+            </div>
+            <div class="edit__header">
+                <h2>Editar Departamento</h2>
+            </div>
+            <div class="edit__form">
+                <form action="" class="edit__department--form">
+                    <textarea name="" id="change__description" cols="30" rows="10" placeholder="Descrição nova do departamento"></textarea>
+                    <button class="edit__department--confirm">Salvar alterações</button>
+                </form>
+            </div>
+        </div>
+    </dialog>
+
+    <dialog class="delete__department--admin">
+        <div class="delete__department--controller">
+            <div class="delete__header">
+                <button class="delete__department--close">X</button>
+            </div>
+            <div class="delete__content">
+                <h2 class="delete__department--message"></h2>
+                <button class="delete__department--confirm">Confirmar</button>
+            </div>
+        </div>
+    </dialog>
+    <dialog class="edit__user--admin">
+        <div class="edit__controller">
+            <div class="edit__close">
+                <button class="close__edition">X</button>
+            </div>
+            <div class="edit__header">
+                <h2>Editar Usuário</h2>
+            </div>
+            <form action="" class="edit__user--form">
+                <select name="" id="edit__typeOf--work">
+                    <option value="">Selecionar modalidade de trabalho</option>
+                    <option value="home office">Home Office</option>
+                    <option value="presencial">Presencial</option>
+                    <option value="hibrido">Híbrido</option>
+                </select>
+                <select name="" id="edit__professional--level">
+                    <option value="">Selecionar nível profissional</option>
+                    <option value="estágio">Estágio</option>
+                    <option value="júnior">Júnior</option>
+                    <option value="pleno">Pleno</option>
+                    <option value="sênior">Sênior</option>
+                </select>
+                <button class="edit__confirm">Editar</button>
+            </form>
+        </div>
+    </dialog>
+
+    <dialog class="delete__user">
+        <div class="delete__controller">
+            <div class="delete__header">
+                <button class="delete__close">X</button>
+            </div>
+            <div class="delete__content">
+                <h2 class="delete__message"></h2>
+                <button class="delete__confirm">Deletar</button>
+            </div>
+        </div>
+    </dialog>
+
+    <header class="header">
+        <nav class="admin__nav">
+            <div class="admin__logo">
+                <img src="../assets/img/logo.svg" alt="Logo da Kenzie Empresas" class="logo">
+            </div>
+            <button id="admin__logout">Logout</button>
+        </nav>
+    </header>
+    <main class="container">
+        <div class="dashboard__main">
+            <div class="departments">
+                <h2 class="departments__name">Departamentos</h2>
+                <div class="companies__select">
+                    <select name="choose__company" id="choose__company" required>
+                        <option value="">Selecionar Empresa</option>
+                    </select>
+                </div>
+                <div class="create__company">
+                    <button class="create__company--button">+ Criar</button>
+                </div>
+            </div>
+            <ul class="companies__list--departments"></ul>
+            <h2 class="registered__users">Usuários cadastrados</h2>
+            <ul class="registered__users--list"></ul>
+        </div>
+    </main>
+</body>
+</html>

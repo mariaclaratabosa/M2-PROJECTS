@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+
+body {
+    background-image: url(../assets/img/background.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+
+.login__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3.7rem;
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: var(--white-default);
+}
+
+.login__logo--image {
+    height: 1rem;
+    width: 9rem;
+    padding-left: 1rem;
+}
+
+.login__buttons {
+    display: none;
+}
+
+.login__button {
+    color: var(--primary-color);
+    background-color: var(--white-default);
+    border: 1px solid var(--primary-color);
+    width: 8.875rem;
+    height: 3rem;
+    font-weight: 700;
+    font-size: 1.125rem;
+    cursor: pointer;
+}
+
+.login__button:hover {
+    background-color: var(--primary-color);
+    color: var(--white-default);
+}
+
+.login__buttons--show {
+    position: absolute;
+    top: 3.75rem;
+    height: 5rem;
+    padding-top: 2rem;
+    width: 100%;
+    text-align: center;
+    background-color: var(--white-default);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.12)
+}
+
+.show {
+    display: block;
+}
+
+.menu__button {
+    padding-right: 1rem;
+}
+
+.main__container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 5.375rem;
+    position: absolute;
+}
+
+.login__container {
+    background-color: rgba(255, 255, 255, 0.95);
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    width: 22.375rem;
+    height: fit-content;
+    padding: 2rem 0 2rem 0;
+}
+
+.login__title {
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 1.2rem;
+    padding-left: 1.5rem;
+}
+
+.login__content {
+    font-size: 0.9rem;
+    padding-left: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+.login__inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+
+.form__buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    align-items: center;
+}
+
+.form__button {
+    width: 85%;
+    height: 2.5rem;
+    background-color: var(--white-default);
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    font-weight: 600;
+    font-size: 1.125rem;
+    cursor: pointer;
+}
+
+.form__button:hover {
+    background-color: var(--primary-color);
+    color: var(--white-default);
+}
+
+input {
+    width: 80%;
+    height: 2.7rem;
+    background-color: var(--white-default);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    outline: none;
+    color: rgba(0, 0, 0, 0.5);
+    padding-left: 1rem;
+}
+
+@media(min-width: 900px) {
+    .desktop__header {
+        width: 96.6vw;
+        height: 3.75rem;
+        padding: 1rem;
+        margin-bottom: 2rem;
+        justify-content: space-between;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+    .logo {
+        padding-left: 9rem;
+    }
+
+    .login__logo--image {
+        width: 12.6875rem;
+        height: 1.3125rem;
+    }
+
+    .menu__button {
+        display: none;
+    }
+
+    .login__buttons {
+        display: flex;
+        position: relative;
+        gap: 1rem;
+        padding-right: 3rem;
+    }
+
+    .login__buttons--show {
+        top: unset;
+        height: auto;
+        width: auto;
+        box-shadow: none;
+        padding-top: 0;
+    }
+
+    main {
+        display: flex;
+        justify-content: center;
+        padding: 3rem;
+    }
+
+    .login__container {
+        width: 31.625rem;
+        height: 30.5625rem;
+        gap: 1.5rem;
+        padding: 2rem;
+    }
+
+    .login__title {
+        font-size: 2.5rem;
+    }
+
+    .login__content {
+        font-size: 18px;
+    }
+
+    .login__input {
+        width: 27.625rem;
+        height: 3.25rem;
+        font-size: 1.125rem;
+    }
+
+    #professional__level {
+        width: 29rem;
+    }
+
+    .form__buttons {
+        gap: 2rem;
+    }
+
+    .form__button {
+        font-weight: 700;
+        font-size: 1.125rem;
+        width: 29rem;
+        height: 3rem;
+    }
+}
+
+/* .header{
+    background-color: var(--white-default); */
+/* position: absolute; */
+/* top: 0%;
+    right: 0%;
+    left: 0%;
+    width: 90rem;
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.login__header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__style{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50rem;
+}
+
+.login__buttons{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.login__button{
+    color: var(--primary-color);
+    background-color: transparent;
+    border: 1px solid var(--primary-color);
+    width: 8.875rem;
+    height: 3rem;
+    font-weight: 700;
+    font-size: 1.125rem;
+    cursor: pointer;
+}
+
+.login__button:hover{
+    background-color: var(--primary-color);
+    color: var(--white-default);
+}
+
+.main__container{
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+}
+
+.login__container{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.95);
+    width: 31.625rem;
+    height: 30.5625rem;
+    gap: 1.5rem;
+    padding: 2rem;
+}
+
+.login__title{
+    color: var(--black-default);
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.login__content{
+    color: var(--black-default);
+    font-weight: 400;
+    font-size: 1.125rem;
+}
+
+.login__inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+
+.login__input{
+    background-color: var(--white-default);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    width: 27.625rem;
+    height: 3.25rem;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1.125rem;
+    padding-left: 1rem;
+}
+
+.login__input:focus{
+    outline: none;
+}
+
+.login__input::placeholder{
+    color:  rgba(0, 0, 0, 0.5);
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+.form__buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}
+
+.form__button{
+    border: 1px solid var(--primary-color);
+    background-color: var(--white-default);
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 1.125rem;
+    width: 29rem;
+    height: 3rem;
+    cursor: pointer;
+}
+
+.form__button:hover{
+    background-color: var(--primary-color);
+    color: var(--white-default);
+}
+
+.login__or--login{
+    font-weight: 400;
+    font-size: 1.125rem;
+    color: var(--black-default);
+}
+
+.login__dropdown{
+    border: none;
+    background-color: transparent;
+    width: 1.9375rem;
+    height: 1.9375rem;
+} */
