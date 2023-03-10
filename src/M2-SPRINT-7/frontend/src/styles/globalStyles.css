@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+:root{
+    --primary-color: #4200FF;
+    --white-default: #FFFFFF;
+    --grey-background: #F8F8F8;
+    --black-default: #000000;
+    --red-default: #CE4646;
+    --green-default: #4BA036;
+}
+
+body, textarea{
+    font-family: 'Inter', sans-serif;
+}
+
+.toast__container{
+    position: absolute;
+    top: 1rem;
+    right: 3rem;
+    width: 12rem;
+    height: 3rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    animation: toastIn 1s linear;
+}
+
+.toast__text{
+    font-weight: 700;
+    font-size: 17px;
+    color: var(--white-default);
+}
+
+@keyframes toastIn {
+    0%{
+        transform: translateX(150%);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
