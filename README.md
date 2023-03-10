@@ -83,7 +83,7 @@ Nesse projeto, desenvolvi uma interface para pesquisar pokemons através da requ
 <br />
 `api request` `search` `redirection` `mobile first` `scaling` `positioning` `media queries` `+`
 
-## S6-10-M2 - 03/03/23 "[PET INFO](https://mariaclaratabosa.github.io/M2-PROJETOS//src/M2-SPRINT-6/index.html)"
+## S6-10-M2 - 03/03/23 "[PET INFO](https://mariaclaratabosa.github.io/M2-PROJETOS//src/M2-SPRINT-6/frontend/index.html)"
 Nesse projeto, desenvolvi uma interface de rede social, onde era possível fazer as requições de login e cadastro, e possuía botões para navegação entre páginas. Na dashboard, após logado, é possível visualizar posts de todos os usuários, e exluir e editar posts feitos pelo usuário logado. Após o login, o localstorage é limpo, impedindo que a página dashboard seja acessada caso não logado. 
 <br />
 `api request` `search` `redirection` `DOM` `scaling` `+`
