@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Maria Clara Tabosa">
+    <link rel="stylesheet" href="./src/styles/globalStyles.css">
+    <link rel="stylesheet" href="./src/styles/login.css">
+    <script type="module" src="./src/scripts/login.js" defer></script>
+    <title>Petinfo - Login</title>
+</head>
+<body>
+    <aside class="infos">
+        <h1 class="infos--title">Petinfo</h1>
+        <h2 class="infos--content">
+            <span class="content--style">Amor</span> e <span class="content--style">carinho</span> por meio do conhecimento
+        </h2>
+        <p class="infos--content__paragraph">Todas as informações para melhorar a vida do seu pet em um só lugar</p>
+        <img src="./src/assets/img/img-login.svg" alt="" class="img--login">
+    </aside>
+    <main class="login--content">
+        <h2 class="login--title">Login</h2>
+        <form class="login--form">
+            <label for="email" class="login--email">Email</label>
+            <input type="email"  class="login--input" id="input--email" placeholder="Digite seu e-mail aqui" required>
+            <label for="senha" class="login--senha">Senha</label>
+            <input type="password" class="login--input" id="input--senha" placeholder="Digite sua senha aqui" required>
+            <p class="login--error" id="error--senha"></p>
+            <button type="submit" class="login--submit">Acessar</button>
+        </form>
+        <section class="register">
+            <p class="register--title">Ainda não possui conta?</p>
+            <p class="register--content">Clicando no botão abaixo, você pode se cadastrar rapidamente</p>
+            <button type="submit" class="register--button__redirect">Cadastrar</button>
+        </section>
+    </main>
+</body>
+</html>

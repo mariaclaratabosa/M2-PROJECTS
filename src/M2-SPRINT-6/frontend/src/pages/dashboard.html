@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Maria Clara Tabosa">
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="../styles/globalStyles.css">
+    <link rel="stylesheet" href="../styles/dashboard.css">
+    <link rel="stylesheet" href="../styles/modal.css">
+    <script src="https://kit.fontawesome.com/5e63cbb13d.js" crossorigin="anonymous"></script>
+    <script type="module" src="../scripts/render.js" defer></script>
+    <title>PetInfo - Dashboard</title>
+</head>
+
+<body>
+    <dialog id="create--post__modal">
+        <div class="create--modal__controller">
+            <div class="create--modal__header">
+                <span>Criando novo post</span>
+                <button id="create--modal__close" class="modal--close">X</button>
+            </div>
+            <form action="" class="create--posts">
+                <label for="title" class="create--post__title">Título do post</label>
+                <input type="text" class="create--post__content" id="title" placeholder="Digite o título aqui" required>
+                <label for="description" class="create--post__description">Conteúdo do post</label>
+                <textarea class="create--post__content" id="content" placeholder="Desenvolva o conteúdo do post aqui..."
+                    required></textarea>
+                <div class="form--create__buttons">
+                    <button class="create--post__cancel">Cancelar</button>
+                    <button type="submit" class="publish--post">Publicar</button>
+                </div>
+            </form>
+        </div>
+    </dialog>
+    <dialog class="modal--show"></dialog>
+    <dialog class="modal--edit">
+        <div class="modal--edit__controller">
+            <div class="modal--edit__header">
+                <span>Edição</span>
+                <button id="edit--modal__close" class="modal--close">X</button>
+            </div>
+            <div class="edit--modal__content">
+                <form action="" class="edit--posts">
+                    <label for="title" class="edit--post__title">Título do post</label>
+                    <input type="text" class="edit--post__content" id="change--title" name="title" required>
+                    <label for="content" class="edit--post__description">Conteúdo do post</label>
+                    <textarea class="edit--post__content" id="change--content" name="content" required></textarea>
+                    <div class="form--edit__buttons">
+                        <button class="edit--post__cancel">Cancelar</button>
+                        <button type="button" class="save--post">Salvar alterações</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </dialog>
+    <dialog class="modal--delete">
+        <div class="delete--modal__controller">
+            <div class="delete--modal__header">
+                <span>Confirmação de exclusão</span>
+                <button id="delete--modal__close" class="modal--close">X</button>
+            </div>
+            <div class="delete--modal__content">
+                <p class="delete--modal__title">Tem certeza que deseja excluir este post?</p>
+                <p class="delete--modal__text">Essa ação não poderá ser desfeita, então pedimos que tenha cautela antes
+                    de concluir</p>
+            </div>
+            <div class="delete--modal__footer">
+                <button class="delete--cancel">Cancelar</button>
+                <button type="button" class="delete--confirm">Sim, excluir este post</button>
+            </div>
+        </div>
+    </dialog>
+    <header class="header">
+        <h1 class="logo">Petinfo</h1>
+        <div class="user--content">
+            <button class="create--post">Criar publicação</button>
+            <img src="" alt="Imagem do usuário" class="user--img">
+        </div>
+        <div class="header--acount hidden">
+            <p class="account--username"></p>
+            <div class="handdle--buttons">
+                <button class="logout"><i class="fa-solid fa-right-from-bracket"></i>Sair da conta</button>
+            </div>
+        </div>
+        <div class="header--acount__after hidden"></div>
+    </header>
+    <main class="posts">
+        <div class="posts--title">
+            <h2>Feed</h2>
+        </div>
+        <div class="posts--list">
+            <ul class="posts--content">
+
+            </ul>
+        </div>
+    </main>
+</body>
+
+</html>

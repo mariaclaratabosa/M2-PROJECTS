@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Maria Clara Tabosa">
+    <link rel="stylesheet" href="../styles/globalStyles.css">
+    <link rel="stylesheet" href="../styles/register.css">
+    <script type="module" src="../scripts/register.js" defer></script>
+    <title>Petinfo - Cadastro</title>
+</head>
+<body>
+    <main class="register--content">
+        <div class="register--header">
+            <p class="register--title">Cadastro</p>
+            <button class="login--button" id="login--button1">Voltar para o login</button>
+        </div>
+        <form class="register--form">
+            <label for="usuario" class="register--user">Usuário</label>
+            <input type="text" id="register--username" placeholder="Digite seu usuário aqui" required>
+            <label for="email" class="register--email">Email</label>
+            <input type="email" class="register--emailcontent" placeholder="Digite seu email aqui" required>
+            <label for="foto" class="register--photo">Link da foto do perfil</label>
+            <input type="text" class="register--photo__link" placeholder="Insira o link aqui" required>
+            <label for="senha" class="register--password">Senha</label>
+            <input type="password" class="register--passwordcontent" placeholder="Digite sua senha aqui" required>
+            <button type="submit" class="register--button">Cadastrar</button>
+            <button class="login--button" id="login--button2">Voltar para o login</button>
+        </form>
+    </main>
+    <aside class="infos">
+        <p class="infos--petinfo">Petinfo</p>
+        <p class="infos--oba">Ooooooba!</p>
+        <p class="infos--content">Agora vamos poder contribuir para o bem estar do seu pet por meio do conhecimento</p>
+        <img src="../assets/img/img-register.svg" alt="Imagens de animais" class="infos--img">
+    </aside>
+</body>
+</html>

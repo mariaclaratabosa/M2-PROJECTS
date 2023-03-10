@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600&display=swap');
+
+.modal--show {
+    border: none;
+    border-radius: 8px;
+    background-color: var(--grey900);
+    height: fit-content;
+    width: 50rem;
+    position: absolute;
+    top: 30%;
+    left: 25%;
+}
+
+.modal--controller {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 2rem;
+}
+
+.modal--header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.user--elements {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.modal--header__img {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 100%;
+}
+
+.modal--user__content {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.modal--user__name {
+    font-weight: 500;
+    font-size: 0.875rem;
+    color: var(--grey100);
+}
+
+.modal--bars {
+    color: var(--grey600);
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.modal--time {
+    color: var(--grey400);
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.modal--close {
+    width: 2.375rem;
+    height: 2rem;
+    background-color: var(--grey600);
+    border-radius: 4px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    color: var(--grey400);
+    font-size: 0.875rem;
+    font-weight: 700;
+}
+
+.modal--content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.modal--title {
+    color: var(--grey100);
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.modal--description {
+    color: var(--grey300);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+#create--post__modal {
+    background-color: var(--grey900);
+    width: 50rem;
+    height: 29.625rem;
+    border-radius: 8px;
+    border: none;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+}
+
+.create--modal__controller {
+    display: flex;
+    flex-direction: column;
+}
+
+.create--modal__header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.create--modal__header>span {
+    color: var(--grey100);
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.create--posts {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem
+}
+
+.create--posts>label {
+    color: var(--grey100);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+#title {
+    width: 46.4375rem;
+    height: 2.75rem;
+    background-color: var(--grey800);
+    border: 1px solid #D9D9D9;
+    border-radius: 4px;
+    padding-left: 1rem;
+}
+
+#title::placeholder {
+    color: var(--grey400);
+    font-size: 1rem;
+}
+
+
+#content {
+    width: 46.4375rem;
+    height: 7.5rem;
+    background-color: var(--grey800);
+    border: 1px solid #D9D9D9;
+    border-radius: 4px;
+    padding-left: 1rem;
+    font-size: 1rem;
+}
+
+#content::placeholder {
+    color: var(--grey400);
+    font-size: 1rem;
+}
+
+.form--create__buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+.create--post__cancel,
+.publish--post, .edit--post__cancel {
+    background-color: var(--grey600);
+    width: 6.5625rem;
+    height: 2.375rem;
+    border-radius: 4px;
+    border: 1px solid var(--grey600);
+    color: var(--grey400);
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.create--post__cancel:hover,
+.publish--post:hover, .edit--post__cancel:hover, .save--post:hover {
+    background-color: var(--brand100);
+    color: var(--grey900);
+}
+
+.modal--edit{
+    background-color: var(--grey900);
+    position: absolute;
+    width: 50rem;
+    height: 30rem;
+    max-height: fit-content;
+    top: 90px;
+    left: 300px;
+    border: none;
+    border-radius: 8px;
+    padding: 2rem;
+}
+
+.modal--edit__header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.modal--edit__header > span{
+    color: var(--grey100);
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+
+.edit--posts{
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+    gap: 1rem;
+}
+
+.edit--posts > label {
+    font-weight: 500;
+    color: var(--grey100);
+    font-size: 1rem;
+}
+
+.edit--posts > input {
+    background-color: var(--grey800);
+    width: 46.4375rem;
+    height: 2.75rem;
+    border: 1px solid #D9D9D9;
+    border-radius: 4px;
+    padding-left: 1rem;
+}
+
+.edit--posts > textarea {
+    background-color: var(--grey800);
+    width: 46.4375rem;
+    height: 10rem;
+    max-height: fit-content;
+    border: 1px solid #D9D9D9;
+    border-radius: 4px;
+    padding: 1rem;
+}
+
+.form--edit__buttons{
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+.save--post{
+    width: 10.125rem;
+    height: 2.375rem;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid var(--grey600);
+    color: var(--grey400);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.modal--delete {
+    width: 50rem;
+    height: 17rem;
+    background-color: var(--grey900);
+    border: none;
+    border-radius: 8px;
+    position: absolute;
+    top: 30%;
+    left: 25%;
+}
+
+.delete--modal__controller {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1.5rem;
+}
+
+.delete--modal__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.delete--modal__header>span {
+    color: var(--grey100);
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+
+.delete--modal__content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.delete--modal__title {
+    color: var(--grey100);
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.delete--modal__text {
+    color: var(--grey300);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.delete--modal__footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1.5rem;
+}
+
+.delete--cancel {
+    background-color: var(--grey600);
+    width: 6.5625rem;
+    height: 2.375rem;
+    border-radius: 4px;
+    border: 1px solid var(--grey600);
+    color: var(--grey400);
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.delete--cancel:hover {
+    background-color: var(--brand100);
+    color: var(--grey900);
+}
+
+.delete--confirm {
+    background-color: var(--grey600);
+    width: 11.8125rem;
+    height: 2.375rem;
+    border-radius: 4px;
+    border: 1px solid var(--grey600);
+    color: var(--grey400);
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.delete--confirm:hover {
+    background-color: var(--alert100);
+    color: var(--grey900);
+}
+
+dialog::backdrop {
+    background-color: rgba(30, 30, 30, 0.5);
+}
