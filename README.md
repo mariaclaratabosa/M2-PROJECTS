@@ -83,5 +83,15 @@ Nesse projeto, desenvolvi uma interface para pesquisar pokemons através da requ
 <br />
 `api request` `search` `redirection` `mobile first` `scaling` `positioning` `media queries` `+`
 
+## S6-10-M2 - 03/03/23 "[PET INFO](https://mariaclaratabosa.github.io/M2-PROJETOS//src/M2-SPRINT-6/S6-10-M2/index.html)"
+Nesse projeto, desenvolvi uma interface de rede social, onde era possível fazer as requições de login e cadastro, e possuía botões para navegação entre páginas. Na dashboard, após logado, é possível visualizar posts de todos os usuários, e exluir e editar posts feitos pelo usuário logado. Após o login, o localstorage é limpo, impedindo que a página dashboard seja acessada caso não logado. 
+<br />
+`api request` `search` `redirection` `DOM` `scaling` `+`
+
+# S1-01-M2 - 10/03/23 "[KENZIE EMPRESAS](https://mariaclaratabosa.github.io/M2-PROJETOS//src/M2-SPRINT-6/S6-10-M2/index.html)"
+Nesse projeto, desenvolvi a interface de uma rede social corporativa, possuindo uma página de home que renderiza todas as empresas cadastradas, com um select onde é possível selecionar o setor, e ele retorna as empresas que pertencem àquele setor. Uma página de cadastro para criação de novos usuários, onde não é possível criar admin (já vem na API). Uma página de login, onde será feita a validação do usuário ao logar, direcionando para a sua respectiva dashboard (user ou admin). Na página do user, é possível visualizar seu nome, e-mail, nível profissional e modalidade de trabalho, possuindo um botão onde é possível editar essas informações, caso o usuário possua emprego, renderiza também seus colegas de trabalho. A página do admin visualiza todos os departamentos e funcionários registrados na página, onde é possível fazer o select na empresa, e retorna todos os seus departamentos. O admin possui funcionalidades de criar novos departamentos, excluir departamentos, editar departamentos, contratar e demitir funcionários do respectivo departamento, bem como pode excluir e editar informações do usuário.
+<br />
+`api request` `redirection` `mobile first` `scaling` `positioning` `media queries` `+`
+
 <h6>Os códigos desse repositório foram desenvolvidos por mim. O modelo de organização do repositório foi baseado no repositório 
 BOOTCAMP-PROJECTS-AND-ACTIVITIES-M2 de @bitoller, com as devidas autorizações da autora</h6>
