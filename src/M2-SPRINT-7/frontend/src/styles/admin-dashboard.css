@@ -127,16 +127,17 @@
     padding: 1rem;
 }
 
-.department__name, .user__name{
-    color: var(--black-default);
-    font-weight: 600;
-    font-size: 1.25rem;
-}
 
 .department__description, .company__name, .user__level, .user__content > span{
     color: var(--black-default);
     font-weight: 400;
     font-size: 1.125rem;
+}
+
+.department__name, .user__name{
+    color: var(--black-default);
+    font-weight: 600;
+    font-size: 1.25rem;
 }
 
 .department__div--buttons, .user__buttons{
@@ -199,7 +200,7 @@
 .create__department--form > input {
     background-color: var(--white-default);
     border: 1px solid rgba(0, 0, 0, 0.3);
-    color: rgba(0, 0, 0, 0.5);
+    color: var(--black-default);
     width: 26.375rem;
     height: 3.25rem;
     outline: none;
@@ -255,7 +256,7 @@
     height: 7.0625rem;
     padding: 1rem;
     font-size:1.0625rem;
-    color: rgba(0, 0, 0, 0.5);
+    color: var(--black-default)
 }
 
 .delete__department--admin, .delete__user{
@@ -485,8 +486,3 @@
 dialog::backdrop{
     background-color: rgba(70, 35, 167, 0.13);
 }
-
-
-
-
-

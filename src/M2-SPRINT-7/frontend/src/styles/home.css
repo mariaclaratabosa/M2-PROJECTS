@@ -8,7 +8,7 @@
     width: 100%;
 }
 
-.logo>img {
+.logo > img {
     height: 1rem;
     width: 9rem;
     padding-left: 1rem;
@@ -190,6 +190,7 @@
     .img__container {
         display: flex;
         width: 50%;
+        height: 46rem;
         align-items: center;
         justify-content: center;
     }
@@ -197,21 +198,33 @@
     .img__home {
         margin-left: -3rem;
         width: 34.375rem;
-        height: 46.4375rem;
+        height: 50rem;
     }
 
     .companies__container {
         height: 3.2612rem;
         width: 38%;
+        margin-bottom: 2rem;
+        height: 40rem;
     }
 
     .companies__list {
         flex-direction: column;
         align-items: center;
         gap: 2rem;
+        height: 39rem;
         padding: 2rem;
         background-color: var(--grey-background);
         overflow-x: hidden;
+        overflow-y: auto;
+    }
+
+    .companies__list::-webkit-scrollbar{
+        width: 6px;
+    }
+
+    .companies__list::-webkit-scrollbar-thumb{
+        background-color: var(--primary-color);
     }
 
     .company__item {

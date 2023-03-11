@@ -98,12 +98,17 @@ input, select{
     background-color: var(--white-default);
     border:  1px solid rgba(0, 0, 0, 0.2);
     outline: none;
-    color: rgba(0, 0, 0, 0.5);
+    color: var(--black-default);
     padding-left: 1rem;
+}
+
+input::placeholder{
+    color: rgba(0, 0, 0, 0.5);
 }
 
 select{
     width: 85%;
+    color: rgba(0, 0, 0, 0.5);
 }
 
 .form__buttons{
@@ -127,6 +132,7 @@ select{
 .form__button:hover{
     background-color: var(--primary-color);
     color: var(--white-default);
+    cursor: pointer;
 }
 
 @media(min-width: 900px){
