@@ -93,5 +93,10 @@ Nesse projeto, desenvolvi a interface de uma rede social corporativa, possuindo 
 <br />
 `api request` `redirection` `mobile first` `scaling` `positioning` `media queries` `+`
 
+## S8-13-M2 - 14/03/23 "[UTILIZANDO TAILWIND CSS E FONTAWESOME PARA CRIAR LAYOUTS](https://mariaclaratabosa.github.io/M2-PROJETOS//src/M2-SPRINT-8/S8-13-M2/index.html)"
+Nesse projeto, desenvolvi uma interface básica para praticar os conceitos aprendidos de Tailwind CSS e Font Awesome.
+<br />
+`HTML` `tailwind css` `FontAwesome` `+`
+
 <h6>Os códigos desse repositório foram desenvolvidos por mim. O modelo de organização do repositório foi baseado no repositório 
 BOOTCAMP-PROJECTS-AND-ACTIVITIES-M2 de @bitoller, com as devidas autorizações da autora</h6>
