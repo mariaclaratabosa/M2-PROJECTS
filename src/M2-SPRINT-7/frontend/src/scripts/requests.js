@@ -1,5 +1,5 @@
 import { toast } from './toast.js'
-import { renderUser } from './render.js'
+import { renderUser, renderAllDepartments } from './render.js'
 
 const token = JSON.parse(localStorage.getItem("@kenzieempresas: token")) || ""
 const baseURL = "http://localhost:6278"
@@ -149,7 +149,7 @@ export const getLoggedDepartments = async () => {
 }
 
 export const editUser = async (userBody) => {
-    const user = await fetch(`${baseURL}/users`, {
+    const user = await fetch(`${baseURL}/users/`, {
         method: "PATCH",
         headers: {
             "Content-Type": "application/json",
@@ -327,6 +327,7 @@ export const deleteDepartment = async (uuid) => {
             toast('Departamento deletado com sucesso', '#4BA036')
             const modal = document.querySelector('.delete__department--admin')
             modal.close()
+            
         } else {
             toast('Não foi possível deletar o departamento, tente novamente', '#CE4646')
         }
@@ -366,7 +367,7 @@ export const dismissUserAdmin = async (id) => {
     return user
 }
 
-export const hireUserAdmin = async(userBody) => {
+export const hireUserAdmin = async(userBody, id) => {
     const user = await fetch(`${baseURL}/departments/hire/`, {
         method: "PATCH",
         headers: {
@@ -386,9 +387,3 @@ export const hireUserAdmin = async(userBody) => {
     })
     return user
 }
-
-
-
-
-
-

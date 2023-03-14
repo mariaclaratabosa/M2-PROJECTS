@@ -1,6 +1,12 @@
 import { adminRenderCompanies, renderAllDepartmentsUsers, renderAllDepartments } from "./render.js";
 import { createDepartmentModal } from "./modal.js";
 
+const authentication = () => {
+    const token = localStorage.getItem("@kenzieempresas: token")
+    if(!token){
+        window.location.replace('../../index.html')
+    }
+}
 
 const homeRedirect = () => {
     const logoutButton = document.querySelector('#admin__logout')
@@ -14,6 +20,7 @@ const homeRedirect = () => {
 }
 
 
+authentication()
 homeRedirect()
 adminRenderCompanies()
 renderAllDepartmentsUsers()

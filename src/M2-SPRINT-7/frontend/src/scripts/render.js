@@ -87,16 +87,9 @@ export const renderUser = async () => {
     const userEmail = document.querySelector('.user__email')
     const userLevel = document.querySelector('.user__professional--level')
     const userTypeWork = document.querySelector('.user__work--type')
-
-    username.innerText = userInformation.username
-    userEmail.innerText = `Email: ${userInformation.email}`
-    const level = userInformation.professional_level
-    userLevel.innerText = level[0].toUpperCase() + level.substring(1)
-    const type = userInformation.kind_of_work
-    userTypeWork.innerText = type[0].toUpperCase() + type.substring(1)
-
     const divNoWork = document.querySelector('.user__not--hired')
     const divWork = document.querySelector('.user__hired')
+
     if (userInformation.department_uuid === null) {
         divNoWork.style.display = 'flex'
         divWork.style.display = 'none'
@@ -105,6 +98,20 @@ export const renderUser = async () => {
         divNoWork.style.display = 'none'
     }
 
+    username.innerText = userInformation.username
+    userEmail.innerText = `Email: ${userInformation.email}`
+    const level = userInformation.professional_level
+    if (level == null) {
+        userLevel.innerText = ''
+    } else {
+        userLevel.innerText = level[0].toUpperCase() + level.substring(1)
+    }
+    const type = userInformation.kind_of_work
+    if (type == null) {
+        userTypeWork.innerText = ''
+    } else {
+        userTypeWork.innerText = type[0].toUpperCase() + type.substring(1)
+    }
     const companyName = document.querySelector('.company__name')
 
     const departmentUser = await getUserDepartment()
@@ -126,7 +133,12 @@ export const renderUser = async () => {
         const coworkerLevel = document.createElement('span')
 
         coworkerName.innerText = coworker.username
-        coworkerLevel.innerText = coworker.professional_level
+        const level = coworker.professional_level
+        if (level == null) {
+            coworkerLevel.innerText = ''
+        } else {
+            coworkerLevel.innerText = level[0].toUpperCase() + level.substring(1)
+        }
 
         coworkerItem.classList.add('user__coworker--item')
         coworkerName.classList.add('coworker__name')
@@ -191,13 +203,12 @@ export const renderAllDepartments = async () => {
                 selectUserOption.value = user.uuid
 
                 selectUser.appendChild(selectUserOption)
-
-                form.addEventListener('submit', (event) => {
-                    event.preventDefault()
-                    hireUserAdmin({
-                        user_uuid: selectUserOption.value,
-                        department_uuid: department.uuid
-                    })
+            })
+            form.addEventListener('submit', (event) => {
+                event.preventDefault()
+                hireUserAdmin({
+                    user_uuid: selectUser.value,
+                    department_uuid: department.uuid
                 })
             })
             const usersInCompany = await getAllUsers()
@@ -214,7 +225,11 @@ export const renderAllDepartments = async () => {
 
                     userName.innerText = user.username
                     const level = user.professional_level
-                    userLevel.innerText = level[0].toUpperCase() + level.substring(1)
+                    if (level == null) {
+                        userLevel.innerText = ''
+                    } else {
+                        userLevel.innerText = level[0].toUpperCase() + level.substring(1)
+                    }
                     userCompany.innerText = department.companies.name
                     userDismiss.innerText = 'Desligar'
 
@@ -321,13 +336,12 @@ const renderCompaniesDepartments = (item) => {
                 selectUserOption.value = user.uuid
 
                 selectUser.appendChild(selectUserOption)
-
-                form.addEventListener('submit', (event) => {
-                    event.preventDefault()
-                    hireUserAdmin({
-                        user_uuid: selectUserOption.value,
-                        department_uuid: department.uuid
-                    })
+            })
+            form.addEventListener('submit', (event) => {
+                event.preventDefault()
+                hireUserAdmin({
+                    user_uuid: selectUser.value,
+                    department_uuid: department.uuid
                 })
             })
             const usersInCompany = await getAllUsers()
@@ -344,7 +358,11 @@ const renderCompaniesDepartments = (item) => {
 
                     userName.innerText = user.username
                     const level = user.professional_level
-                    userLevel.innerText = level[0].toUpperCase() + level.substring(1)
+                    if (level == null) {
+                        userLevel.innerText = ''
+                    } else {
+                        userLevel.innerText = level[0].toUpperCase() + level.substring(1)
+                    }
                     userCompany.innerText = department.companies.name
                     userDismiss.innerText = 'Desligar'
 
@@ -401,6 +419,7 @@ const renderCompaniesDepartments = (item) => {
 }
 
 export const adminRenderCompanies = async () => {
+
     const companies = await getAllCompanies()
     const companiesSelect = document.querySelector('#choose__company')
 
@@ -414,15 +433,16 @@ export const adminRenderCompanies = async () => {
 
     companiesSelect.addEventListener('change', async (event) => {
         const selectedCompany = event.target.value
-
         if (selectedCompany) {
             const departments = await getCompanyByDepartments(selectedCompany)
-            renderCompaniesDepartments(departments)
-            const users = await getUserDepartments(selectedCompany)
-            renderCompaniesUsers(users)
+            if (departments.length == 0) {
+                const departmentsList = document.querySelector('.companies__list--departments')
+                departmentsList.innerHTML = 'Esta empresa ainda não possui departamentos cadastrados'
+            } else {
+                renderCompaniesDepartments(departments)
+            }
         } else {
             renderAllDepartments()
-            renderAllDepartmentsUsers()
         }
     })
 }
@@ -442,7 +462,7 @@ export const renderAllDepartmentsUsers = async () => {
         }
         const userItem = document.createElement('li')
         const userContent = document.createElement('div')
-        const userName = document.createElement('span')
+        const userName = document.createElement('p')
         const userLevel = document.createElement('span')
         const userCompany = document.createElement('span')
         const userButtons = document.createElement('div')
@@ -451,7 +471,11 @@ export const renderAllDepartmentsUsers = async () => {
 
         userName.innerText = user.username
         const level = user.professional_level
-        userLevel.innerText = level[0].toUpperCase() + level.substring(1)
+        if (level == null) {
+            userLevel.innerText = ''
+        } else {
+            userLevel.innerText = level[0].toUpperCase() + level.substring(1)
+        }
         departments.forEach((department) => {
             if (department.uuid == user.department_uuid) {
                 userCompany.innerText = department.companies.name
@@ -482,44 +506,6 @@ export const renderAllDepartmentsUsers = async () => {
         userButtons.append(editUser, deleteUser)
         userItem.append(userContent, userButtons)
         usersList.appendChild(userItem)
-    })
-}
-
-const renderCompaniesUsers = async (item) => {
-    const usersList = document.querySelector('.registered__users--list')
-    const department = await getAllDepartments()
-    usersList.innerHTML = ''
-
-    item.forEach((user) => {
-        if (user.department_uuid == department.uuid) {
-            const userItem = document.createElement('li')
-            const userContent = document.createElement('div')
-            const userName = document.createElement('span')
-            const userLevel = document.createElement('span')
-            const userCompany = document.createElement('span')
-            const userButtons = document.createElement('div')
-            const editUser = document.createElement('img')
-            const deleteUser = document.createElement('img')
-
-            userName.innerText = user.username
-            const level = user.professional_level
-            userLevel.innerText = level[0].toUpperCase() + level.substring(1)
-            editUser.src = '../assets/img/pencil.svg'
-            deleteUser.src = '../assets/img/trash.svg'
-
-            userItem.classList.add('user__item')
-            userContent.classList.add('user__content')
-            userName.classList.add('user__name')
-            userCompany.classList.add('user__company')
-            userButtons.classList.add('user__buttons')
-            editUser.classList.add('edit__user')
-            deleteUser.classList.add('delete__user')
-
-            userContent.append(userName, userLevel, userCompany)
-            userButtons.append(editUser, deleteUser)
-            userItem.append(userContent, userButtons)
-            usersList.appendChild(userItem)
-        }
     })
 }
 

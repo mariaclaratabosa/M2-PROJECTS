@@ -103,6 +103,10 @@ body {
     align-items: center;
 }
 
+.login__input{
+    color: var(--black-default);
+}
+
 .form__buttons {
     display: flex;
     flex-direction: column;

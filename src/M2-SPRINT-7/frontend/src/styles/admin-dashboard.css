@@ -262,8 +262,8 @@
 .delete__department--admin, .delete__user{
     border: none;
     background-color: var(--white-default);
-    width: 45.8125rem;
-    height: 21.375rem;
+    width: 43rem;
+    height: 18rem;
 }
 
 .delete__department--controller, .delete__controller{
@@ -390,7 +390,7 @@
 }
 
 .view__users--list::-webkit-scrollbar{
-    width: 6px;
+    height: 6px;
 }
 
 .view__users--list::-webkit-scrollbar-thumb{
@@ -410,6 +410,7 @@
 }
 
 .view__user--name{
+    width: 15rem;
     font-weight: 600;
     font-size: 1.25rem;
 }
@@ -481,8 +482,10 @@
     cursor: pointer;
 }
 
-
-
 dialog::backdrop{
     background-color: rgba(70, 35, 167, 0.13);
 }
+
+
+
+

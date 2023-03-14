@@ -1,12 +1,12 @@
 import { editUserModal } from "./modal.js"
 import { renderUser } from "./render.js"
 
-// const authentication = () => {
-//     const token = localStorage.getItem("@kenzieempresas:token")
-//     if(!token){
-//         window.location.replace('../../index.html')
-//     }
-// }
+const authentication = () => {
+    const token = localStorage.getItem("@kenzieempresas: token")
+    if(!token){
+        window.location.replace('../../index.html')
+    }
+}
 
 const homeRedirect = () => {
     const logoutButton = document.querySelector('#user__logout')
@@ -19,7 +19,7 @@ const homeRedirect = () => {
     })
 }
 
-// authentication()
 homeRedirect()
 renderUser()
 editUserModal()
+authentication()

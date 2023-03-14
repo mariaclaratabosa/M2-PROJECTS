@@ -8,14 +8,14 @@ export const editUserModal = () => {
     const inputs = document.querySelectorAll('.input--edit__user')
     const editClose = document.querySelector('.edit__user--close')
 
-    form.addEventListener('submit', (event) => {
+    form.addEventListener('submit', async (event) => {
         event.preventDefault()
 
         const username = inputs[0].value 
         const email = inputs[1].value
         const password = inputs[2].value
 
-        editUser({
+        await editUser({
             username,
             password, 
             email,
@@ -53,6 +53,7 @@ export const createDepartmentModal = () => {
                 description: inputs[1].value,
                 company_uuid: select.value,
             })
+            renderAllDepartments()
         })
         closeButton.addEventListener('click', () => {
             modal.close()

@@ -163,6 +163,7 @@ select{
         position: relative;
         gap: 1rem;
         padding-right: 3rem;
+        background-color: transparent;
     }
 
     .register__buttons--show {
@@ -171,6 +172,7 @@ select{
         width: auto;
         box-shadow: none;
         padding-top: 0;
+        background-color: transparent;
     }
 
     main{

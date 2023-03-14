@@ -214,9 +214,9 @@
 .user__coworkers{
     height: 4.875rem;
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    gap: 3rem;
     padding: 1rem;
+    flex-wrap: wrap;
 }
 
 .user__coworker--item{
