@@ -93,6 +93,11 @@ Nesse projeto, desenvolvi a interface de uma rede social corporativa, possuindo 
 <br />
 `api request` `redirection` `mobile first` `scaling` `positioning` `media queries` `+`
 
+## S8-03-M2 - 13/02/23 "[DISPLAY GRID](https://mariaclaratabosa.github.io/M2-PROJETOS//src/M2-SPRINT-8/S8-03-M2/index.html)"
+Nesse projeto, desenvolvi uma interface básica para aplicar os conceitos aprendidos de display grid.
+<br />
+`HTML` `CSS` `display grid` `+`
+
 ## S8-13-M2 - 14/03/23 "[UTILIZANDO TAILWIND CSS E FONTAWESOME PARA CRIAR LAYOUTS](https://mariaclaratabosa.github.io/M2-PROJETOS//src/M2-SPRINT-8/S8-13-M2/index.html)"
 Nesse projeto, desenvolvi uma interface básica para praticar os conceitos aprendidos de Tailwind CSS e Font Awesome.
 <br />
